@@ -1,6 +1,8 @@
 object calc {
   def main(args:Array[String]){
-    val result = new Calculator(10,10)
+    //create object of class calculator passing inputs
+    val result = new Calculator(10,10) 
+    //calling functions
     result.sum()
     result.sum(10)
     result.mul()
